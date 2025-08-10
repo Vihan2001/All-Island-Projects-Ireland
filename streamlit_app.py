@@ -127,4 +127,4 @@ def parse_date(v: Any) -> Optional[str]:
         except Exception:
             return None
 
-def _normalise_record(rec: Dict[str, Any]) -> Dict[str, Any]
+def _normalise_record(rec: Dict[str, Any]) -> Dict[str, Any]:
