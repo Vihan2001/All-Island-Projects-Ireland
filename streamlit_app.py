@@ -106,4 +106,4 @@ def money(n: float) -> str:
         locale.setlocale(locale.LC_ALL, "en_IE.UTF-8")
         return locale.currency(n, grouping=True)
     except Exception:
-        return f"€{ f"€{int(round(n, 0)):,}"
+        return f"€{int(round(n, 0)):,}"
